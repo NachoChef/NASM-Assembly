@@ -33,14 +33,14 @@ section		.text
 ;move to next line
 	mov 	ah, 9		;display char fcn
 	mov 	dx, crlf	;cr/lf pair
-	int 	21h			;execute fcn 9
+	int 	21h		;execute fcn 9
 
 ;display sum
 	mov	ah, 9		;display char fcn
 	mov 	dx, sum		;fcn 9 pulls from dx
-	int	21h			;display it
+	int	21h		;display it
 
 ;exit to DOS
-	mov ah, 4Ch		;DOS exit fcn
-	mov al, 0		;exit condition normal
-	int 21h			;exiting
+	mov 	ah, 4Ch		;DOS exit fcn
+	mov 	al, 0		;exit condition normal
+	int 	21h		;exiting
