@@ -1,9 +1,9 @@
-;Name: Justin Jones
-;Date: 10/06/2016
 ;Description:	This program takes user input, if it is a character then it prints
 ;				the ASCII code in binary, and prints uppercase & lowercase versions.
 ;				It will repeat until the user decides to quit.
-			
+
+;Formatting is messed up after upload.
+
 			org 100h
 			
 section		.data
