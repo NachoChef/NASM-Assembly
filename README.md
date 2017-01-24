@@ -3,7 +3,7 @@ Lab projects for COSC 2329 at SHSU. The labs were meant to be completed as if on
 
 Made available for reference as many of the internet resources for NASM didn't exactly pertain to the scope our labs worked within.
 
-Copyright 2016 Justin Jones
+Copyright 2017 Justin Jones
 
 
 
