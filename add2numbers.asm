@@ -4,10 +4,10 @@
 		org 100h
 		
 section		.data
-	prompt 	db	"?"
+	prompt 		db	"?"
 	crlf		db	13, 10, '$'
 	input		db	?
-	sum			db	?
+	sum		db	?
 
 section		.text
 ;display ?, take input
